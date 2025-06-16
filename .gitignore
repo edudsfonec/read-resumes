@@ -1,0 +1,43 @@
+# Arquivos de Ambiente
+.env               # Onde sua chave de API e outras variáveis sensíveis são armazenadas
+
+# Ambientes Virtuais
+venv/              # Pasta padrão de ambientes virtuais (Ex: venv/, .venv/)
+.venv/             # Outro nome comum para a pasta de ambiente virtual
+env/               # Outro nome comum para a pasta de ambiente virtual
+
+# Cache do Python
+__pycache__/       # Pastas de cache de módulos Python
+*.pyc              # Arquivos Python compilados
+*.pyd              # Módulos Python dinâmicos (Windows)
+*.egg-info/        # Metadados de pacotes Python
+.pytest_cache/     # Cache do Pytest
+.ipynb_checkpoints/ # Notebook checkpoints (se usar Jupyter ocasionalmente)
+
+# Logs e Dados Gerados Automaticamente
+*.log              # Arquivos de log
+*.sqlite3          # Banco de dados SQLite (se você adicionar um futuramente)
+*.db               # Outros arquivos de banco de dados
+*.csv              # Arquivos CSV gerados (se houver)
+*.json             # Arquivos JSON gerados (se houver)
+
+# Arquivos Específicos do Sistema Operacional
+.DS_Store          # macOS
+Thumbs.db          # Windows
+desktop.ini        # Windows
+
+# Editores de Texto e IDEs
+.vscode/           # Arquivos de configuração do VS Code (opcional: pode querer versionar settings.json)
+.idea/             # Arquivos de configuração do IntelliJ/PyCharm
+*.swp              # Swap files do Vim
+*~                 # Backup files do Emacs
+
+# Arquivos de Modelos ML/Dados Grandes (se aplicável futuramente)
+# Se você tiver modelos spaCy personalizados ou outros modelos ML
+# que são muito grandes para o Git, adicione-os aqui.
+# Ex: models/     
+# Ex: data/processed/
+
+# Arquivos de Upload Temporários
+# Se o FastAPI criar arquivos temporários ao lidar com uploads, adicione-os aqui
+# Ex: uploads/
