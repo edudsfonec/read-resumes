@@ -1,4 +1,4 @@
-# read-docs
+# read-resumes
 # API de Análise e Resumo de Currículos
 
 Esta API permite o upload de arquivos de currículo em diversos formatos (PDF, DOCX, TXT, Imagem) e utiliza inteligência artificial (OpenAI GPT) para extrair informações chave do perfil do candidato e gerar um resumo conciso. As informações extraídas são formatadas para serem facilmente integradas com sistemas de gerenciamento de candidatos, como o Bubble.io.
